@@ -7,12 +7,6 @@ import { HeroSection } from "../components/sections/HeroSection";
 import { TechnologyHighlight } from "../components/sections/TechnologyHighlight";
 import { ProductCollectionBanner } from "../components/sections/ProductCollectionBanner";
 import { HyaluronicMoistureCards } from "../components/sections/HyaluronicMoistureCards";
-import { EditorialBentoGrid } from "../components/sections/EditorialBentoGrid";
-import { CustomerReviewsSection } from "../components/sections/CustomerReviewsSection";
-import { HairTypeGuideSection } from "../components/sections/HairTypeGuideSection";
-import { ArabHairTypesSection } from "../components/sections/ArabHairTypesSection";
-import { BlogArticlesSection } from "../components/sections/BlogArticlesSection";
-import { ClinicalStatsSection } from "../components/sections/ClinicalStatsSection";
 import { Footer } from "../components/layout/Footer";
 
 export const MainPage: React.FC = () => {
