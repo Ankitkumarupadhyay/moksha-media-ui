@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;350;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Kaushan+Script&display=swap');
+
+@theme {
+  --font-gotham: 'Gotham', 'Montserrat', 'Inter', sans-serif;
+  --font-sans: 'Gotham', 'Montserrat', 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-script: 'Kaushan Script', cursive;
+
+  --color-figma-purple: #76468A;
+  --color-figma-cyan: #00D5FD;
+  --color-figma-[#DAF6FF]: #DAF6FF;
+  --color-figma-[#F3FDFF]: #F3FDFF;
+
+  --color-pastel-shampoo: #EBBBFF;
+  --color-pastel-conditioner: #AAB9FF;
+  --color-pastel-cream: #C7EEFF;
+  --color-pastel-gel: #FFCFAF;
+  --color-pastel-mask: #D9FEA6;
+}
+
+@layer base {
+  body {
+    background-color: #F3FDFF;
+    color: #000000;
+    font-family: 'Gotham', 'Montserrat', 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-gotham {
+  font-family: 'Gotham', 'Montserrat', 'Inter', sans-serif;
+}
+
+/* Custom rotated card transformations matching Figma CSS (-7.2deg) */
+.rotate-figma-card {
+  transform: rotate(-7.2deg);
+}
+
+.bg-btn-cyan {
+  background: linear-gradient(93.55deg, #00D5FD 0%, #02D3FC 98.65%);
+}
+
+.text-script-curved {
+  font-family: 'Kaushan Script', cursive;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F3FDFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #00D5FD;
+  border-radius: 4px;
+}
